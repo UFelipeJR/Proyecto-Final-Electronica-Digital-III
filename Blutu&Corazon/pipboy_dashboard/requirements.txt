@@ -1,0 +1,5 @@
+customtkinter>=5.2.2,<6
+bleak>=1.1.1,<2
+pytest>=8.3,<10
+pytest-asyncio>=0.25,<2
+

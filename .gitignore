@@ -1,0 +1,73 @@
+# ==========================================
+# C / C++ & Raspberry Pi Pico SDK (CMake)
+# ==========================================
+# Carpetas de compilación (de prueba_max30102, prueba_hc08, prueba_integracion, etc.)
+build/
+**/build/
+cmake-build-*/
+out/
+
+# Binarios y salidas generadas para la Pico
+*.uf2
+*.elf
+*.bin
+*.hex
+*.map
+*.dis
+*.o
+*.obj
+*.a
+*.lib
+
+# Archivos autogenerados por CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+pioasm/
+elf2uf2/
+generated/
+
+# (Opcional) Si copiaste pico_sdk_import.cmake en cada carpeta,
+# NO lo ignores; ignora solo el SDK si está clonado dentro del repo:
+pico-sdk/
+
+# ==========================================
+# Python (Pipboy Dashboard)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Cachés y distribución
+.pytest_cache/
+dist/
+*.egg-info/
+
+# Datos de pruebas o logs seriales locales
+*.log
+*.csv
+
+# ==========================================
+# IDEs y Editores (VS Code, Qt, etc.)
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Sistema Operativo (Windows / macOS / Linux)
+# ==========================================
+Thumbs.db
+Desktop.ini
+.DS_Store
